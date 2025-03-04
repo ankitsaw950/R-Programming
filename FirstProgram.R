@@ -160,7 +160,7 @@
 # as.character(x)        # Convert to character
 # as.logical(0) 
 
-name <- "Ankit"
+# name <- "Ankit"
 # print(name)
 # print(class(name))
 # print(nchar(name))
@@ -291,9 +291,49 @@ name <- "Ankit"
 # res <- c(a,b)
 # print(res)
 
-x <- c(1, 2, 3, 4, 5)
-print(sum(x))
-print(min(x))
-print(max(x))
-print(mean(x))
+# x <- c(1, 2, 3, 4, 5)
+# print(sum(x))
+# print(min(x))
+# print(max(x))
+# print(mean(x))
 
+# =========================================
+
+# mat <- matrix(c(1, 2, 3, 4, 5, 6,7,8,9), nrow = 3, ncol = 3)
+# print(mat)
+# print(mat[1,2])
+
+# complete row access
+# print(mat[1,])
+# print(mat[c(1,2),])
+
+# complete column access
+# print(mat[,1])
+# print(mat[,c(1,2)])
+
+# x <- matrix(c(1, 2, 3, 4, 5, 6,7,8,9), nrow = 3, ncol = 3)
+# print(x)
+
+# new <- cbind(x,c(10,11,12))
+# # print(new)
+
+# New <- rbind(new,c(13,14,15,16))
+# print(New)
+
+
+# y <- matrix(c("apple","banana","cherry","orange","grapes","litchi"),nrow=2,ncol=3)
+
+# print("apple" %in% y)
+
+# print(dim(y))
+# print(length(y))
+
+
+
+thisarray <- c(1:24)
+multiarray <- array(thisarray, dim = c(4, 3, 2))
+# print(multiarray)
+
+# multiarray[2, , 2]
+dim(multiarray)
+length(multiarray)
